@@ -1,11 +1,12 @@
-import Button from "./Button";
 
 const Header = () => {
   return (
     <div classNameName="header-div">
       <div className="top-logo-div">
-        
-        <h1> <i className="fa fa-google"></i>Eden</h1>
+        <h1>
+          {" "}
+          <i className="fa fa-google"></i>Eden
+        </h1>
       </div>
       <div>
         <div className="stepper-wrapper">
