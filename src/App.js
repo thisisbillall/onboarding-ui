@@ -5,14 +5,14 @@ import Page2 from "./pages/Page2";
 import Page3 from "./pages/Page3";
 import Page4 from "./pages/Page4";
 
-import {  Routes, Route } from "react-router-dom";
+import {  BrowserRouter,Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Header />
-        {/* <BrowserRouter> */}
+        <BrowserRouter>
           <Routes>
               <Route path="/" element={<Page1/>}>
               <Route path="/page2" element={<Page2 />} />
@@ -20,7 +20,7 @@ function App() {
               <Route path="/page4" element={<Page4 />} />
             </Route>
           </Routes>
-        {/* </BrowserRouter> */}
+        </BrowserRouter>
       </header>
     </div>
   );
