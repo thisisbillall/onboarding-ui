@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.form-control{
+  width: 40rem;
+  height: 5rem;
+}
+.btn{
+  height: 5rem;
+  margin-top: 2rem;
+  background-color: rgb(98, 8, 201);
+}
+label{
+  font-size: 15px;
+  font-weight: 100;
+  float: left;
+  color: #000000;
+}
+i{
+  color: rgb(98, 8, 201);
+}
+.heading, .sub-heading{
+  color: #000000;
 }
